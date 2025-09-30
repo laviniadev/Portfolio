@@ -1,6 +1,7 @@
 # Portfólio Web Pessoal
 
-Este projeto é um **portfólio web estático** desenvolvido como parte do **curso de Análise e Desenvolvimento de Sistemas da Universidade CEUMA**. O objetivo é apresentar trajetória profissional, habilidades, projetos e formas de contato, exercitando boas práticas de front-end.
+Este projeto é um **portfólio web estático** desenvolvido como parte do **curso de Análise e Desenvolvimento de Sistemas da Universidade CEUMA**. 
+O objetivo é apresentar trajetória profissional, habilidades, projetos e formas de contato, exercitando boas práticas de front-end.
 
 Foi construído utilizando **HTML5**, **CSS3** e **JavaScript Vanilla** para aprimorar a navegação entre seções.
 
@@ -81,6 +82,3 @@ Conecte-se:
 * [Instagram](https://www.instagram.com/lavhrts/)
 * [WhatsApp](https://wa.me/5598987524881)
 
----
-
-Este projeto foi desenvolvido com foco em **práticas profissionais de front-end**, incluindo **animações CSS avançadas**, **marquee animado** e **interatividade suave via JavaScript**, aplicando os conhecimentos adquiridos no curso acadêmico.
