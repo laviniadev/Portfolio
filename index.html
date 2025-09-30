@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfólio - Lavinia Ogawa</title>
+
+  <!--FONTS-->
+  <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+
+  <!--CSS externo-->
+  <link rel="stylesheet" href="styles/styles.css">
+
+  <style>
+    /* rolagem suave */
+    html { scroll-behavior: smooth; }
+
+    /* variável que será atualizada via JS com a altura real do header */
+    :root { --header-height: 0px; }
+
+    /* assegura um espaço extra quando a âncora atingir o elemento (evita corte) */
+    #inicio, #sobre, #skills, #projetos {
+      /* 16px é um espaçamento extra visual; ajuste se quiser */
+      scroll-margin-top: calc(var(--header-height) + 16px);
+    }
+
+    /* Se seu header for FIXO (position: fixed), pode ser útil empurrar o conteúdo
+       visível para baixo adicionando padding-top ao body.
+       Descomente se o header estiver com position: fixed no seu styles.css */
+
+    /* body {
+      padding-top: var(--header-height);
+    } */
+  </style>
+</head>
+
+<body>
+  <!--Header-->
+  <header>
+    <div class="header__container">
+      <div class="header__logo">
+        <img src="assets/logo.png" alt="Logo Incode">
+      </div>
+      <div class="header__nav">
+        <ul class="nav__lista">
+          <li class="nav__item"><a href="#inicio">Início</a></li>
+          <li class="nav__item"><a href="#sobre">Sobre</a></li>
+          <li class="nav__item"><a href="#skills">Skills</a></li>
+          <li class="nav__item"><a href="#projetos">Projetos</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!--Main-->
+  <main id="inicio" class="main">
+    <h1>&lt; Lavínia Ogawa /&gt;</h1>
+    <p>
+    Analista de Dados e especialista em Visualização de Dados<br>na <strong>Secretaria de Transparência e Controle (STC-MA)</strong>
+    </p>
+  </main>
+
+  <!--Sobre-->
+  <section id="sobre" class="sobre">
+    <div class="sobre__container">
+      <div class="sobre__topo">
+        <h2>Conheça um pouco sobre mim</h2>
+        <p>
+        <br>Comecei meus estudos em programação em <strong>Março de 2024</strong> e desde então venho aprimorando habilidades em análise de dados, estatística e visualização de informações.<br>
+        </p>
+      </div>
+
+      <div class="sobre__card">
+        <div>
+          <h3>Estudante</h3>
+          <p><strong>Análise e Desenvolvimento de Sistemas - UNICEUMA</strong><br>Conclusão: Dezembro 2027</p>
+        </div>
+        <div>
+          <h3>Meu foco</h3>
+          <p><strong>(DAX, Linguagem M)</strong>,<br> <strong>VBA</strong>, <strong>Power Query</strong> e<br><strong>Gestão de projetos ágeis</strong>.</p>
+        </div>
+        <div>
+          <h3>Hobbies</h3>
+          <p><strong>Modelagem 3D</strong>, <strong>Arte</strong>, <br><strong>Leitura</strong>, <strong>Jogos</strong>, <strong>Design</strong>,<br><strong>Música</strong> e <strong>Fotografia</strong>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="skills__container">
+      <div class="skills__topo">
+        <h2>Skills</h2>
+      </div>
+
+      <div class="wrapper">
+        <img src="assets/skills/figma.png" alt="figma" class="item" style="--n:1">
+        <img src="assets/skills/html.png" alt="html" class="item" style="--n:2">
+        <img src="assets/skills/css.png" alt="css" class="item" style="--n:3">
+        <img src="assets/skills/javascript.png" alt="javascript" class="item" style="--n:4">
+        <img src="assets/skills/typescript.png" alt="typescript" class="item" style="--n:5">
+        <img src="assets/skills/react.png" alt="react" class="item" style="--n:6">
+        <img src="assets/skills/nodejs.png" alt="nodejs" class="item" style="--n:7">
+        <img src="assets/skills/mysql.png" alt="mysql" class="item" style="--n:8">
+      </div>
+    </div>
+  </section>
+
+    <!-- Projetos -->
+    <section id="projetos">
+        <div class="projetos__container">
+            <div class="projetos__header">
+                <h2>Projetos</h2>
+            </div>
+
+            <div class="projetos__card">
+                <div class="projetos__texto">
+                    <h3 class="card__titulo">ROBOTICA</h3>
+                    <p class="card__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit etiam.</p>
+                    <a href="#" class="card__link">Acesse aqui</a>
+                </div>
+            </div>
+
+            <div class="projetos__card">
+                <div class="projetos__texto">
+                    <h3 class="card__titulo">ROBOTICA</h3>
+                    <p class="card__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit etiam.</p>
+                    <a href="#" class="card__link">Acesse aqui</a>
+                </div>
+            </div>
+
+            <div class="projetos__card">
+                <div class="projetos__texto">
+                    <h3 class="card__titulo">ROBOTICA</h3>
+                    <p class="card__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit etiam.</p>
+                    <a href="#" class="card__link">Acesse aqui</a>
+                </div>
+            </div>
+
+            <div class="projetos__card">
+                <div class="projetos__texto">
+                    <h3 class="card__titulo">ROBOTICA</h3>
+                    <p class="card__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit etiam.</p>
+                    <a href="#" class="card__link">Acesse aqui</a>
+                </div>
+            </div>
+
+            <div class="projetos__card">
+                <div class="projetos__texto">
+                    <h3 class="card__titulo">ROBOTICA</h3>
+                    <p class="card__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit etiam.</p>
+                    <a href="#" class="card__link">Acesse aqui</a>
+                </div>
+            </div>
+
+            <div class="projetos__card">
+                <div class="projetos__texto">
+                    <h3 class="card__titulo">ROBOTICA</h3>
+                    <p class="card__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit etiam.</p>
+                    <a href="#" class="card__link">Acesse aqui</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="footer__container">
+      <div class="footer__logo">
+        <img src="assets/logo.png" alt="Logo Incode">
+      </div>
+      <div class="footer__nav">
+        <ul class="nav__lista">
+          <li class="nav__item"><a href="#inicio">Início</a></li>
+          <li class="nav__item"><a href="#sobre">Sobre</a></li>
+          <li class="nav__item"><a href="#skills">Skills</a></li>
+          <li class="nav__item"><a href="#projetos">Projetos</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+
+    <ul class="nav__lista">
+      <li class="nav__item">
+        <a href="https://www.instagram.com/lavhrts/" target="_blank">
+          <img src="assets/icons/instagram.png" alt="Instagram">
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="https://linkedin.com/in/laviniaogawa" target="_blank">
+          <img src="assets/icons/linkedin.png" alt="LinkedIn">
+        </a>
+      </li>
+      <li class="nav__item">
+        <a href="https://wa.me/5598987524881" target="_blank">
+          <img src="assets/icons/whatsapp.png" alt="WhatsApp">
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+
+
+<!-------------------------------------------------------------------------------------------->
+
+  <!-- SCRIPTS: atualiza a variável --header-height e aplica scroll ajustado -->
+  <script>
+    // atualiza a variável CSS --header-height com a altura real do header
+    function updateHeaderHeightVar(){
+      const header = document.querySelector('header');
+      const h = header ? Math.ceil(header.getBoundingClientRect().height) : 0;
+      document.documentElement.style.setProperty('--header-height', h + 'px');
+    }
+    updateHeaderHeightVar();
+    window.addEventListener('resize', updateHeaderHeightVar);
+
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', function(e){
+        const hash = this.getAttribute('href');
+        if(!hash || hash === '#') return;
+        const id = hash.slice(1);
+        const el = document.getElementById(id);
+        if(!el) return;
+
+        e.preventDefault();
+
+        const rect = el.getBoundingClientRect();
+        const elTop = rect.top + window.pageYOffset;
+        const elHeight = rect.height;
+
+        const maxTop = document.documentElement.scrollHeight - window.innerHeight;
+
+        let desiredTop = elTop - (window.innerHeight - elHeight) / 2;
+
+        desiredTop = Math.max(0, Math.min(desiredTop, maxTop));
+
+        window.scrollTo({ top: desiredTop, behavior: 'smooth' });
+
+        history.pushState(null, '', '#' + id);
+      });
+    });
+  </script>
+</body>
+</html>
